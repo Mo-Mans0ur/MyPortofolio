@@ -24,4 +24,9 @@ public class IndexController {
     public String artGallery() {
         return "ArtGallery";
     }
+
+    @GetMapping("/FrontPage")
+    public String frontPage() {
+        return "FrontPage";
+    }
 }
